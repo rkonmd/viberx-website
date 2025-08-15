@@ -170,6 +170,30 @@
             border: 2px solid rgba(165, 243, 252, 0.3);
         }
         
+        .credit-table {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 15px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+        
+        .credit-table table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        .credit-table th,
+        .credit-table td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .credit-table th {
+            color: #fbbf24;
+            font-weight: 600;
+        }
+        
         .back-home {
             display: inline-flex;
             align-items: center;
@@ -262,7 +286,7 @@
     <div class="content">
         <div class="container">
             <h1>Terms of Service & EULA</h1>
-            <p class="last-updated">Last Updated: August 12, 2025</p>
+            <p class="last-updated">Last Updated: December 21, 2024</p>
             
             <div class="document">
                 <div class="eula-box">
@@ -279,6 +303,7 @@
                     <p><strong>VibeRx Pro Monthly</strong></p>
                     <ul>
                         <li>Price: $6.99 USD per month</li>
+                        <li>Credits: 100 credits per month</li>
                         <li>Duration: 1 month auto-renewable</li>
                         <li>Product ID: com.konaraenterprises.viberx.pro_monthly</li>
                     </ul>
@@ -286,17 +311,67 @@
                     <p><strong>VibeRx Pro Annual</strong></p>
                     <ul>
                         <li>Price: $69.99 USD per year (Save $14)</li>
+                        <li>Credits: 100 credits per month</li>
                         <li>Duration: 1 year auto-renewable</li>
                         <li>Product ID: com.konaraenterprises.viberx.pro_annual</li>
                     </ul>
                 </div>
 
+                <h3>SMART CREDIT SYSTEM:</h3>
+                <p>VibeRx uses a credit-based system for all features. Each action costs a specific number of credits:</p>
+                
+                <div class="credit-table">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Feature</th>
+                                <th>Standard Mode</th>
+                                <th>ND Mode (2x)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Basic Message Analysis</td>
+                                <td>1 credit</td>
+                                <td>2 credits</td>
+                            </tr>
+                            <tr>
+                                <td>Message Comparison</td>
+                                <td>2 credits</td>
+                                <td>4 credits</td>
+                            </tr>
+                            <tr>
+                                <td>Timeline Analysis</td>
+                                <td>2 credits</td>
+                                <td>4 credits</td>
+                            </tr>
+                            <tr>
+                                <td>Viral Content Generation</td>
+                                <td>3 credits</td>
+                                <td>6 credits</td>
+                            </tr>
+                            <tr>
+                                <td>Voice Transcription</td>
+                                <td>1 credit</td>
+                                <td>1 credit</td>
+                            </tr>
+                            <tr>
+                                <td>Screenshot Analysis</td>
+                                <td>2 credits</td>
+                                <td>2 credits</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
                 <h3>SUBSCRIPTION FEATURES:</h3>
                 <ul>
-                    <li>20 daily text analyses (4x more than trial)</li>
-                    <li>10 voice messages per day (separate limit)</li>
-                    <li>10 screenshot analyses per day (separate limit)</li>
-                    <li>Premium GPT-4 AI insights</li>
+                    <li><strong>100 credits per month</strong> (refreshes on billing date)</li>
+                    <li><strong>20 credits daily maximum</strong> (hard limit)</li>
+                    <li><strong>10 credits daily soft limit</strong> (warning shown)</li>
+                    <li>Premium GPT-4 AI insights for complex analyses</li>
+                    <li>Neurodivergent (ND) Mode with enhanced clarity (2x credits)</li>
+                    <li>All content studio formats included</li>
                     <li>Priority support (Annual plan)</li>
                     <li>Early access to new features (Annual plan)</li>
                 </ul>
@@ -307,6 +382,8 @@
                     <li>Subscription automatically renews unless auto-renew is turned off at least 24 hours before the end of the current period</li>
                     <li>Account will be charged for renewal within 24 hours prior to the end of the current period</li>
                     <li>Renewal cost: Same as original subscription price</li>
+                    <li>Credits refresh to 100 at the start of each billing period</li>
+                    <li>Unused credits do not roll over to the next month</li>
                     <li>Subscriptions may be managed by going to your Account Settings after purchase</li>
                     <li>Any unused portion of a free trial period will be forfeited when purchasing a subscription</li>
                 </ul>
@@ -319,19 +396,37 @@
                     <li>Select "VibeRx"</li>
                     <li>Tap "Cancel Subscription"</li>
                 </ol>
-                <p><strong>Note:</strong> Cancellation must be done at least 24 hours before your renewal date to avoid being charged for the next period.</p>
+                <p><strong>Note:</strong> Cancellation must be done at least 24 hours before your renewal date to avoid being charged for the next period. You will retain access to your remaining credits until the end of your current billing period.</p>
 
                 <h2>FREE TRIAL TERMS</h2>
                 <div class="pricing-box">
                     <h3>3-DAY FREE TRIAL:</h3>
                     <ul>
                         <li>Duration: 3 days from first use</li>
-                        <li>5 total uses per day (text, voice, and screenshots combined)</li>
+                        <li><strong>30 total credits</strong> for the entire trial period</li>
+                        <li><strong>Up to 15 credits</strong> can be used per day</li>
                         <li>Premium GPT-4 quality analysis</li>
-                        <li>All Pro features available</li>
+                        <li>All Pro features available including ND Mode</li>
                         <li>One trial per device only</li>
                         <li>No credit card required for trial</li>
                         <li>Trial automatically expires after 3 days</li>
+                        <li>Credits do not renew during trial</li>
+                    </ul>
+                    
+                    <p><strong>Example usage:</strong> 30 credits allows approximately 30 basic analyses, or 15 ND mode analyses, or 10 viral content generations during your trial.</p>
+                </div>
+
+                <h2>CREDIT SYSTEM DETAILS</h2>
+                <div class="highlight">
+                    <h3>Important Credit Information:</h3>
+                    <ul>
+                        <li>Credits are consumed when you use features</li>
+                        <li>ND Mode uses 2x credits for enhanced clarity and accessibility</li>
+                        <li>Daily limits prevent accidental overuse (soft limit: 10, hard limit: 20)</li>
+                        <li>Credits reset to 100 on your monthly billing date</li>
+                        <li>Unused credits expire at the end of each billing period</li>
+                        <li>Credit usage is tracked in real-time</li>
+                        <li>You can check remaining credits in the app at any time</li>
                     </ul>
                 </div>
 
@@ -354,6 +449,7 @@
                     <li>Verify insights with professionals when needed</li>
                     <li>Respect others' privacy</li>
                     <li>You must be 13+ years old to use this service</li>
+                    <li>Monitor your credit usage to avoid reaching limits</li>
                 </ul>
                 
                 <h2>4. PRIVACY FIRST</h2>
@@ -392,6 +488,7 @@
                     <li>Abuse of the trial system</li>
                     <li>Inappropriate or harmful use</li>
                     <li>Fraudulent activity</li>
+                    <li>Attempting to bypass credit limits</li>
                 </ul>
                 
                 <h2>8. REFUND POLICY</h2>
@@ -401,6 +498,7 @@
                     <li>Sign in with your Apple ID</li>
                     <li>Select the purchase and request refund</li>
                 </ul>
+                <p><strong>Note:</strong> Credits are non-refundable once used.</p>
                 
                 <h2>9. CONTACT INFORMATION</h2>
                 <p><strong>Support:</strong> <a href="mailto:support@viberx.ai" style="color: #a5f3fc;">support@viberx.ai</a><br>
@@ -412,6 +510,7 @@
                     <ul>
                         <li>This service is for EDUCATIONAL PURPOSES ONLY</li>
                         <li>You agree to the Apple Standard EULA</li>
+                        <li>You understand the Smart Credit System</li>
                         <li>You understand the subscription terms and auto-renewal policy</li>
                         <li>You accept our Privacy Policy</li>
                     </ul>
@@ -431,6 +530,7 @@
                     <li>Explore emotional patterns</li>
                     <li>Practice self-reflection</li>
                     <li>Improve self-awareness</li>
+                    <li>Track your credit usage and optimize feature use</li>
                 </ul>
                 
                 <p><strong>DON'T use VibeRx to:</strong></p>
@@ -439,6 +539,7 @@
                     <li>Make medical or legal decisions</li>
                     <li>Handle mental health emergencies</li>
                     <li>Monitor others without consent</li>
+                    <li>Attempt to bypass or exploit the credit system</li>
                 </ul>
                 
                 <div class="eula-box">
